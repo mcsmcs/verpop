@@ -1,12 +1,12 @@
-function sum(a,b){
+function Sum(a,b){
     return a + b;
 }
 
-function sub(a,b){
+function Sub(a,b){
     return a - b;
 }
 
 module.exports = {
-    sum: sum,
-    sub: sub
+    sum: Sum,
+    sub: Sub
 }

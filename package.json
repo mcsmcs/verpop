@@ -4,7 +4,8 @@
   "description": "Version popper",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Testing is for production!\""
+    "test": "echo \"Testing is for production!\"",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/mcsmcs/verpop/issues"
   },
-  "homepage": "https://github.com/mcsmcs/verpop#readme"
+  "homepage": "https://github.com/mcsmcs/verpop#readme",
+  "devDependencies": {
+    "standard-version": "^4.2.0"
+  }
 }
